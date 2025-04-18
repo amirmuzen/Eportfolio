@@ -39,9 +39,8 @@ li {
   flex: 1;
 }
 
-.container  {
-  padding:50px 0;
-
+.container {
+  padding: 50px 0;
 }
 .row {
   width: 100%;
@@ -53,13 +52,13 @@ li {
   color: purple;
 }
 
-section:nth-child(even)  {
+section:nth-child(even) {
   background-color: lightgrey;
 }
 
-.section__title  {
+.section__title {
   margin-bottom: 20px;
-
+  color: brown;
 }
 
 /*  NAVIGATION BAR */
@@ -125,7 +124,7 @@ nav {
   width: 100px;
   height: 200px;
   border-radius: 50%;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .about-me__picture {
@@ -134,7 +133,6 @@ nav {
   /*  Improving my own picture */
 
   transform: scale(1);
-  
 }
 
 .about-me__info--title {
@@ -154,22 +152,19 @@ nav {
   padding: 0 16px;
 }
 
-.about-me__img--container {
+.about-me__img--container   {
   flex: 1;
   display: flex;
-  align-items: center;
-}
-.about-me__img {
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  align-items:center;
 }
 
+.about-me__img {
+  width: 100%;
+}
 
 /*  TECH - STACK  */
 
-
-.language__img  {
+.language__img {
   width: 100%;
   max-width: 100px;
 }
@@ -178,10 +173,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
-
+  padding: 25px 16px;
 }
 
 .language__list {
   display: flex;
+  width: 90%;
+  flex-wrap: wrap;
 }
