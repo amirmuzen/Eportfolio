@@ -126,11 +126,12 @@ nav {
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
+  transition: 300ms ease;
+  postion:absolute;
 }
 
-.nav__link--anchor-primary {
-  background-color: purple;
-}
+.nav__link--anchor-primary:hover{
+  background-color: red;}
 
 .personal__logo {
   font-size: 24px;
